@@ -1,0 +1,26 @@
+{
+  "name": "live-collaborative-workspace",
+  "version": "1.0.0",
+  "description": "A multi-user real-time collaborative code workspace with persistent rooms, presence tracking, and synchronized editing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "collaborative",
+    "real-time",
+    "code-editor",
+    "socket.io",
+    "websocket"
+  ],
+  "author": "",
+  "license": "MIT"
+}
